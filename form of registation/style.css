@@ -1,0 +1,83 @@
+
+input{
+    display: block;
+}
+@font-face {
+    font-family: "intel";
+    src: url("fonts/Inter-Medium.ttf");
+}
+.box{
+    width: 378px;
+    height: 274px;
+    border-radius: 4px;
+    border: 1px solid #E0E0E0;
+    background: #F5F5F5;
+    margin: auto;
+    position: relative;
+     top: 142px; 
+    /* left: 451px;  */
+    padding-left: 30px;
+    padding-top: 30px;  
+}
+.label{
+    color: #616161;
+    font-family: "Intel";
+    font-size: 16px;
+    font-weight: 500;
+ 
+}
+
+.input1{
+    width: 315px;
+    height: 45px;
+    font-family: "Intel";
+    border-radius: 10px;
+    border: 1px solid #E0E0E0;
+    padding-left:11px;
+    margin-top: 6px;
+    margin-bottom: 14px;
+}
+.input2{
+    width: 315px;
+    height: 45px;
+    font-family: "Intel";
+    border-radius: 10px;
+    border: 1px solid #E0E0E0;
+    padding-left:11px;
+    margin-top: 6px;
+    margin-bottom: 18px;
+}
+.input1:focus{
+    outline: none;
+    font-family:"intel";
+    font-size: 16px;
+    color: #9E9E9E;
+}
+.input2::placeholder{
+    color: #9E9E9E;
+    font-size: 16px;
+    font-weight: 500;
+}
+.input2:focus{
+    outline: none;
+    font-family:"intel";
+    font-size: 16px;
+    color: #9E9E9E;
+}
+.input2::placeholder{
+    color: #9E9E9E;
+    font-size: 16px;
+    font-weight: 500;
+}
+.button{
+    width: 330px;
+    height: 45px;
+    border-radius: 10px;
+    background: #FFD43A;
+    border: none;
+    outline: none;
+    font-family: "intel";
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+}
